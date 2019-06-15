@@ -46,7 +46,7 @@ header #header-bar>.row {
     border-top: 7px solid #d294b4;
     background: #fff;
     border-bottom: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
+    border-right: 1px;
     border-radius: 15px;
 }
 
