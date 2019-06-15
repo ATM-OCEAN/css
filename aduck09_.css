@@ -62,16 +62,16 @@ header #header-bar a.dropdown-toggle {
 /*좌측메뉴창*/
 
 #main .menu-wrapper {
-    border-right: 5px solid #9c75a5;
-    border-bottom: 5px solid #9c75a5;
+    border-right: 5px solid #d294b4;
+    border-bottom: 5px solid #d294b4;
     margin-bottom: 0.8em;
-    border-left: 5px solid #9c75a5;
-    border-radius: 15px;
-    border-top: 5px solid #9c75a5;
+    border-left: 5px solid #d294b4;
+    border-radius: 15px 15px 0px 0px;
+    border-top: 5px solid #d294b4;
 }
 
 #main .menu-wrapper>.header {
-    background: #9c75a5;
+    background: #d294b4;
     color: #fff;
     padding: 0.45em 1.4em 0.45em 1em;
     font-weight: bold;
@@ -82,13 +82,12 @@ header #header-bar a.dropdown-toggle {
     background: #fceff6;
     padding: 0.3em 1.4em 0.3em 0.7em;
     text-decoration: none;
-    color: #9c75a5;
+    color: #d294b4;
     border-bottom: 1px solid #fceff6;
-    border-radius: 0px 0px 15px 15px;
 }
 
 #main .menu-wrapper>a>em {
-    color: #9c75a5;
+    color: #d294b4;
     text-decoration: none;
     font-style: normal;
     width: 24px;
@@ -98,7 +97,7 @@ header #header-bar a.dropdown-toggle {
 }
 
 #main .menu-wrapper .spacer {
-    background: #9c75a5;
+    background: #fceff6;
     display: block;
     height: 0.35em;
 }
@@ -108,7 +107,7 @@ header #header-bar a.dropdown-toggle {
     display: inline-block;
     text-align: center;
     font-size: 0.1em;
-    color: #9c75a5;
+    color: #d294b4;
     vertical-align: 0.2em;
 }
 
@@ -1052,3 +1051,22 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 #movetotop img{display:none}
 
 #movetotop{display: inline-block;opacity:1;background:url(https://upload.tgd.kr/20190615/411fb49a1ce5762b4628daa81b508165.png);    width: 80px;  height: 80px;background-size: contain;}
+
+
+body {
+
+    background: linear-gradient(to bottom, #9c75a5, #fec35b);
+
+    /* 방향 = to bottom, to right, to left, to top */
+
+    height: auto;
+
+}
+
+/*큰틀*/
+
+#main #main-content>div.frame {
+    background: #fff;
+    border-right: 2px solid #f3bb6300;
+    border-bottom: 2px solid #fceff600;
+}
