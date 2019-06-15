@@ -1032,3 +1032,16 @@ span.a-badge i.fa.fa-info-circle {
     color: #9c75a5;
     vertical-align: -2px !important;
 }
+
+/* 별 애니메이션 */
+
+
+@keyframes binglebingle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
+
+span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
+
+.article-list-row i.fa.fa-star {
+
+animation: rotation 2s infinite;
+
+}
