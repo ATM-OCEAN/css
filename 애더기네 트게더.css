@@ -1021,4 +1021,7 @@ a {
     border-left: 1px solid #9c75a5;
     border-top: 1px solid #9c75a5;
 
-
+/*게시글 공지부분 배경 색상*/
+#article-list>.article-list-row.notice {
+    background-color: #fceff6
+}
