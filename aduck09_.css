@@ -1026,3 +1026,9 @@ a {
     background-color: #fceff6
 }
 
+/*공지글 표시 마크*/
+
+span.a-badge i.fa.fa-info-circle {
+    color: #9c75a5;
+    vertical-align: -2px !important;
+}
