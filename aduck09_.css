@@ -1070,3 +1070,13 @@ body {
     border-right: 2px solid #f3bb6300;
     border-bottom: 2px solid #fceff600;
 }
+
+/*접속인원 이모티콘*/
+
+#board-info #viewers-area .fa-user:before {
+
+ color: rgba(10, 59, 84, 0);
+
+ content: url(https://upload.tgd.kr/20190616/d02e95833d318a29f9cd9b54991758b3.png);
+
+}
