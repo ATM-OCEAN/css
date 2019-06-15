@@ -1043,3 +1043,8 @@ span.a-badge i.fa.fa-info-circle {
 span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 
 
+/*½ºÅ©·Ñ*/
+
+#movetotop img{display:none}
+
+#movetotop{display: inline-block;opacity:1;background:url(https://upload.tgd.kr/20190615/402df40622cffb17165ede4c974a63e5.png);    width: 80px;  height: 80px;background-size: contain;}
