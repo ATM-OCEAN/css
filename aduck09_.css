@@ -122,6 +122,7 @@ header #header-bar a.dropdown-toggle {
     overflow: visible;
 }
 
+
 #board-info #board-info-profile-img {
     width: 3.5em;
     height: auto;
@@ -131,8 +132,10 @@ header #header-bar a.dropdown-toggle {
     margin-right: 15px;
     border-radius: 100px;
     border: solid 5px #edccde;
-    margin-bottom: 15px;
+    
+
 }
+
 
 /*순위권*/
 
@@ -180,7 +183,7 @@ header #header-bar a.dropdown-toggle {
 
 #board-info #viewers-area #viewers:after {
 
-    content: " 명 지켜보는중";    /* 숫자 뒤에 들어갈 문구 */
+    content: "명 지켜보는중";    /* 숫자 뒤에 들어갈 문구 */
 
         /* ex) content: "명 접속중"; */
 
@@ -733,7 +736,7 @@ header .row>div:nth-child(1)>a {
 
     height: 50px;
 
-    background: url(https://upload.tgd.kr/20190616/275fd5cc46e90d1b7f42cec87b8e02b7.png) no-repeat; /* url(로고 경로 입력) */
+    background: url(https://upload.tgd.kr/20190613/4b7f61b6748c5324b8dbd70f26bbcbcc.png) no-repeat; /* url(로고 경로 입력) */
 
     background-size: auto 50px;
 
@@ -1079,4 +1082,25 @@ body {
 
  content: url(https://upload.tgd.kr/20190616/d02e95833d318a29f9cd9b54991758b3.png);
 
+}
+
+
+/*프로필 이미지 애니메이션*/
+ 
+@keyframes aduck {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}
+}	
+		
+#board-info-profile-img  {
+    animation-name: aduck;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
