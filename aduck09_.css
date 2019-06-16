@@ -787,11 +787,12 @@ span.a-badge i.fa.fa-info-circle {
     position: relative;
     text-align: center;
     padding: 0px 2px;
-    color: #9c75a5;
+    color: #ff0000;
     word-break: break-word;
     border-radius: 1px;
     top: 3px;
     float: left;
+    
 }
 
 /* 마우스 커서 포인터 */
