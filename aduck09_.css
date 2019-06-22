@@ -315,7 +315,7 @@ header #header-bar a.dropdown-toggle {
 /*인기글네모*/
 
 #article-list>.article-list-row.hot {
-    background-color: #fceff6;
+    background-color: #e8bfd5;
 }
 #article-list>.article-list-row {
     text-align: center;
@@ -397,7 +397,7 @@ header #header-bar a.dropdown-toggle {
 /*읽었던 글*/
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #e8bfd5 !important;
+    color: #d294b4 !important;
 }
 
 /*게시글*/
@@ -771,7 +771,7 @@ header .row>div:nth-child(1)>a>img {
 /*공지글*/
 
 #article-list>.article-list-row.notice {
-    background-color: #d294b4;
+    background-color: #e8bfd5;
 }
 
 
@@ -1032,7 +1032,7 @@ a {
 
 /*게시글 공지부분 배경 색상*/
 #article-list>.article-list-row.notice {
-    background-color: #fceff6
+    background-color: #e8bfd5
 }
 
 /*공지글 표시 마크*/
