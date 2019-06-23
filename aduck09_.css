@@ -1105,3 +1105,14 @@ body {
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }
+
+/*게시판 점수*/
+
+#board-info #score-area {
+    font-size: 14px;
+    color: rgb(232, 191, 213);
+    font-weight: normal;
+    vertical-align: middle;
+    line-height: 18px;
+    display: inline-block;
+}
