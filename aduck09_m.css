@@ -639,3 +639,8 @@ letter-spacing: -0.05em !important;
   font-family: 'Binggrae-Bold';
 
 }
+
+/*스트리머 메뉴*/
+#board-info #board-info-bottom a {
+    color: #e8bfd5;
+}
