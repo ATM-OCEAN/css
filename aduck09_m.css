@@ -617,3 +617,25 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
     border-color: #9c75a5;
 
 }
+
+/*ÆùÆ®*/
+
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html {
+
+  background: linear-gradient(to bottom, #FFE6E6, #FFD2D2);
+
+  height: auto !important;
+
+}
+
+body {
+
+letter-spacing: -0.05em !important;
+
+  background: transparent;
+
+  font-family: 'Binggrae-Bold';
+
+}
